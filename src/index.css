@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Handjet:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Handjet:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,10 +6,10 @@
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(#186a5e, #053339);
+  background: radial-gradient(#082c53, #00010a);
   color: #e1eeeb;
   min-height: 100vh;
 }
@@ -18,13 +18,13 @@ body {
   max-width: 60rem;
   margin: 2rem auto;
   padding: 2rem;
-  background: radial-gradient(#0b201d, #021619);
+  background: radial-gradient(#034b6c, #02253b);
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 h1 {
-  font-family: 'Handjet', monospace;
+  font-family: "Handjet", monospace;
   text-align: center;
   text-transform: uppercase;
   color: #c1e2dd;
@@ -50,7 +50,7 @@ header p {
 }
 
 #player h2 {
-  color: #54a399;
+  color: #4df0f8;
 }
 
 #player p {
@@ -61,27 +61,27 @@ header p {
 
 #player input {
   font: inherit;
-  border: 1px solid #54a399;
-  background-color: #192f2b;
+  border: 1px solid #0a1829;
+  background-color: #4df0f8;
   border-radius: 4px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   padding: 0.25rem;
-  color: #d1f0ec;
+  color: #0a1829;
 }
 
 #player button {
   cursor: pointer;
-  background-color: #54a399;
-  border: 1px solid #54a399;
+  background-color: #0a1829;
+  border: 1px solid #0a1829;
   padding: 0.4rem 1rem;
-  color: #061e1a;
+  color: #4df0f8;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
 #player button:hover {
-  background-color: #3c8379;
+  background-color: #022649;
   border-color: #3c8379;
 }
 
@@ -112,7 +112,7 @@ header p {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
-  background: #12352f;
+  background: #0a1829;
   color: #edfcfa;
   font-size: 1.2rem;
   cursor: pointer;
@@ -123,11 +123,12 @@ header p {
 }
 
 .challenge h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: 0.1em;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 1000;
   color: #221c18;
 }
 
@@ -158,7 +159,7 @@ header p {
 }
 
 .result-modal h2 {
-  font-family: 'Handjet', monospace;
+  font-family: "Handjet", monospace;
   margin: 0 0 0.25rem 0;
   font-size: 3rem;
   text-transform: uppercase;
